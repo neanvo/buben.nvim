@@ -41,9 +41,7 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
     dependencies = {
         "nvim-telescope/telescope.nvim",
     },
-    config = function()
-        require("buben").setup()
-    end
+    opts = {}
 }
 ```
 
